@@ -1,14 +1,14 @@
 # Positive 1-in-3-SAT → P13-free Perfect Matching Cut campaign state
 
-Status: Prepare pending. No reduction or solution is claimed.
+Status: Prepare completed on 2026-09-26. No reduction or solution is claimed.
 
 Scope: establish the independent testing foundation only.
 
 Round budget: 0 construction rounds authorized in this setup task.
 
-Capability probe: pending. Record dated versions and availability before Prepare.
+Capability probe (2026-09-26): Python 3.12.14, uv 0.12.17, Z3 4.16.0 from the locked environment, Typst 0.15.1, Lake 5.0.0 and Lean 4.34.1 available.
 
-Next action: read the fixed question, then complete `.agents/skills/research-prepare/SKILL.md` and commit its corpus, oracles, checks and limitations.
+Next action: when a construction round is authorized, use the committed decision corpus and contract to test a proposed reduction. The setup task authorizes zero construction rounds.
 
 | ID | Attempted mechanism or literature scope | First check | Outcome | Evidence |
 |---|---|---|---|---|
