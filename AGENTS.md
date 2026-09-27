@@ -1,7 +1,5 @@
 # Research instructions
 
-This repository owns one campaign: [Positive 1-in-3-SAT → P13-free Perfect Matching Cut](campaigns/p13-free-perfect-matching-cut/question.md). Read its [state](campaigns/p13-free-perfect-matching-cut/state.md) before work.
+Read the [fixed question](campaigns/p13-free-perfect-matching-cut/question.md), [prior state](campaigns/p13-free-perfect-matching-cut/state.md) and [preparation notes](campaigns/p13-free-perfect-matching-cut/work/preparation.md). The fixed [test corpus](campaigns/p13-free-perfect-matching-cut/work/cases.json) and [verifier](campaigns/p13-free-perfect-matching-cut/work/check.py) are the starting evidence; the preparation notes state their coverage and any pending checks.
 
-Use the copied `.agents/skills/research-prepare/SKILL.md` and `research/` specifications. Make only evidence-backed claims, commit preparation before construction, and retain failed checks. No construction rounds are authorized by this setup task.
-
-The source question board is at `/Users/xiweipan/Codes/autoresearch-gadgets`. Its shared experience entries stay there; do not copy them into this repository. Use uv and a committed lockfile when Python dependencies are needed.
+Run `uv sync --locked`, then `uv run --locked python campaigns/p13-free-perfect-matching-cut/work/check.py --self-test` before relying on that evidence. Follow the current user's AutoResearch pipeline. Scope and budgets in the state describe earlier work and do not limit a new campaign. Preserve prior evidence, commit new work incrementally and make only evidence-backed claims.
