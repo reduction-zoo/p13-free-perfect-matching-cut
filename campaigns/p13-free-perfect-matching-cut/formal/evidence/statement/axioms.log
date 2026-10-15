@@ -1,0 +1,2 @@
+'P13FreePerfectMatchingCut.Goal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'P13FreePerfectMatchingCut.solve' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

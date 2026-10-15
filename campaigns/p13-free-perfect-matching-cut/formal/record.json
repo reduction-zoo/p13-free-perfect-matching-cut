@@ -1,0 +1,7 @@
+{
+  "id": "Q029",
+  "source_definition": "The source is Positive 1-in-3-SAT with explicit clauses of three unnegated variables. Its valid output is the correct YES/NO answer.",
+  "target_definition": "The target is a graph with no induced path on thirteen vertices and asks for a nontrivial cut having exactly one opposite neighbor at every vertex. The archived fixed theorem requests decision outputs; it does not establish witness extraction. Its valid output for this fixed theorem is the correct YES/NO answer.",
+  "required_result": "Construct a polynomial-time instance map preserving the correct decision answer. Recovery maps the target YES/NO answer to the source answer. The archived theorem is decision-only; no witness recovery theorem is claimed. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
